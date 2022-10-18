@@ -8,38 +8,32 @@
 
 /**                                                                                                                                     
  *
- *  * main - assigns a random number to variable n when executed                                                                           
+ * * main - assigns a random number to variable n when executed                                                                           
  *
- *   * Return: Always 0 (Successful)                                                                                                        
+ * * Return: Always 0 (Successful)                                                                                                        
  *
- *    */                                                                                                                                     
+ **/                                                                                                                                     
 
                                                                                                                                         
 
 int main(void)                                                                                                                          
 
-{                                                                                                                                       
+{
+	int n;
+	
+	srand(time(0));                                                                                                                 
 
-	        int n;                                                                                                                          
+	n = rand() - RAND_MAX / 2;	
 
-		                                                                                                                                        
+	if (n > 0)                                                                                                                      
+                printf("%d is positive\n", n);                                                                                         
 
-		        srand(time(0));                                                                                                                 
+	else if (n == 0)                                                                                                                
+                printf("%d is zero\n", n);
 
-			        n = rand() - RAND_MAX / 2;                                                                                                      
+     	else if (n < 0)                                                                                                               	                printf("%d is negative\n", n);
 
-				        if (n > 0)                                                                                                                      
+	return (0);
+}
+							
 
-						                printf("%Id is positive\n", n);                                                                                         
-
-					        else if (n == 0)                                                                                                                
-
-							                printf("%Id is zero\n", n);                                                                                             
-
-						        else if (n < 0)                                                                                                                 
-
-								                printf("%Id is negative\n", n);                                                                                         
-
-							        return (0);                                                                                                                     
-
-								
