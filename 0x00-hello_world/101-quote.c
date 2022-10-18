@@ -2,7 +2,9 @@
 #include <unistd.h>
 
 /**
- * Main - prints and that piece of art is useful - Dora Korpar, 2015-10-19
+ * Main - Entry point
+ *
+ * * description: 'to display a string'
  * Return : Always 0 (Successful)
  */
 
