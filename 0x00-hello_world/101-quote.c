@@ -2,11 +2,12 @@
 #include <unistd.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
- * * description: 'to display a string'
- * Return : Always 0 (Successful)
- */
+ * description: to display a script
+ *
+ * Return: Always 0 (Success)
+ **/
 
 int main(void)
 {
